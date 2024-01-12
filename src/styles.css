@@ -208,14 +208,18 @@ footer a {
     margin-top: 15px;
   }
   section {
-    max-width: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin: 0 auto;
   }
   .grid-2-columns {
     display: block;
     margin: 50px auto;
   }
-
+  .alhambra-image {
+    aspect-ratio: 16/9;
+    margin-bottom: 10px;
+  }
   .text-box {
     text-align: center;
     position: relative;
@@ -242,9 +246,7 @@ footer a {
     margin-top: 4px;
     margin-bottom: 30px;
   }
-  .card-header img {
-    height: 93px;
-  }
+
   .card-body {
     padding: 12px 16px;
   }
@@ -267,7 +269,7 @@ footer a {
   footer {
     font-size: 6px;
     font-weight: 400;
-    margin-top: 100px;
+    margin-top: 30px;
   }
   .grid {
     grid-template-columns: 1fr;
@@ -275,10 +277,13 @@ footer a {
   .cafe-header-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  footer section {
+    padding: 0;
+  }
   footer .grid {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 25px;
-    padding: 7px 0;
+    padding: 10px 40px;
   }
   footer h4 {
     font-size: 8px;
