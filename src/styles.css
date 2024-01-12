@@ -73,6 +73,7 @@ section {
   letter-spacing: 5px;
   font-size: 16px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 .text-box h3 {
   margin-top: 0;
@@ -95,7 +96,9 @@ main p {
   grid-gap: 30px;
 }
 .card-section h3,
-.card-section h4 {
+.card-section h4,
+.gallery-section h3,
+.gallery-section h4 {
   text-align: center;
 }
 .main-headers {
@@ -151,6 +154,13 @@ main p {
   padding: 16px 32px;
   justify-content: center;
 }
+.gallery-section .grid-3-column img {
+  aspect-ratio: 3 / 3;
+}
+.gallery-section h4 {
+  margin-top: 100px;
+}
+
 footer {
   background-image: linear-gradient(
       rgba(29, 32, 68, 0.9),
@@ -163,6 +173,7 @@ footer {
   color: white;
   font-size: 13px;
   font-weight: 400;
+  margin-top: 100px;
 }
 footer .grid {
   grid-template-columns: 1fr 2fr 2fr;
@@ -265,6 +276,10 @@ footer a {
   .card-footer .btn {
     font-size: 7px;
     padding: 8px 16px;
+  }
+
+  .gallery-section h4 {
+    margin-top: 50px;
   }
   footer {
     font-size: 6px;
