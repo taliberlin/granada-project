@@ -112,7 +112,12 @@ main p {
   grid-template-columns: repeat(2, 1fr);
 }
 .card-header img {
-  height: 185px;
+  max-width: 100%;
+  aspect-ratio: 1/1;
+}
+.card-header iframe {
+  max-width: 100%;
+  aspect-ratio: 1/1;
 }
 .card-body {
   padding: 24px 32px;
